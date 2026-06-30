@@ -1,0 +1,16 @@
+{
+  "inbounds": [{
+    "port": 10000,
+    "listen": "0.0.0.0",
+    "protocol": "vless",
+    "settings": {
+      "clients": [{ "id": "739c1c2d-460f-402d-bc0e-9f424e52559d" }],
+      "decryption": "none"
+    },
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": { "path": "/didi" }
+    }
+  }],
+  "outbounds": [{ "protocol": "freedom" }]
+}
